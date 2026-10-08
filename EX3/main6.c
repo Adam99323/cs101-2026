@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int i = 119;
+    int i = 300;
     if (i <= 30) {
         printf("免費");
     }
