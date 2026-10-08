@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int i = 10; // 否
+    int i = 8; // 否
     // int i = 8; // 是
 
     if (i > 0 && (i & (i - 1)) == 0) {
