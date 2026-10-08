@@ -1,20 +1,20 @@
 #include <stdio.h>
-
 int main() {
-    int i = 61; // output "免費"
-    // int i = 40; // output "60元"
-    // int i = 300; // output "240元"
-
+    int i = 119;
     if (i <= 30) {
-        printf("免費\n");
+        printf("免費");
+    }
+    else if ( i >= 240) {
+        printf("240元");
     }
     else {
-        int fee = ((i + 29) / 30) * 30;
-
-        if (fee > 240) {
-            fee = 240;
+        if (i%30) {
+            int h = ((i/30)+1) * 30;
+            printf("%d 元", h);
         }
-        printf("%d元\n", fee);
+        else {
+            printf("%d 元", i);
+        }
     }
 
     return 0;
