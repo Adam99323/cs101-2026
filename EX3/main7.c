@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int i = 1599;
+    int i = 3000;
     if (i <= 1500) {
         printf("70元");
     }
